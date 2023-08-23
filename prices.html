@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/choices/choices.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Цены</title>
+</head>
+    <body>
+        <div class="wrapper">
+            <header>
+    <div class="header__container container">
+        <div class="menu__icon">
+            <span></span>
+        </div>
+        <div class="header__left">
+            <a href="index.html">
+                <img src="img/icons/logo.svg" alt="your-doctor">
+            </a>
+        </div>
+        <div class="header__tel">
+            <div class="header-tel__icon icon-tel"></div>
+            <a href="tel:8(8552)910322">8(8552) · 910 · 322</a>
+        </div>
+        <div class="header__right">
+            <div class="header-right__up">
+                <div class="header-right__contacts">
+                    <div class="contacts__icon icon-tel"></div>
+                    <div class="contacts__phones">
+                        <div class="header-contacts__first">
+                            <a href="tel:8(8552)910322">8(8552) · 910 · 322</a>
+                        </div>
+                        <div class="header-contacts__second">
+                            <a href="tel:8(8552)322177">8(8552) · 322 · 177</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right__times">
+                    <div class="times__icon icon-time"></div>
+                    <span class="times__text">Время работы:</span>
+                    <ul class="times__list">
+                        <li>Пн · Пт с 8.00 до 19.00</li>
+                        <li>Сб · Вс с 8.00 до 15.00</li>
+                        <li>Вс · Выходной</li>
+                    </ul>
+                </div>
+                <div class="header-right__buttons">
+                    <a href="#popup-reception" class="button">Записаться на прием</a>
+                    <div class="header-right__icons">
+                        <div class="header-right__poor-vision">
+                            <a href="#" class="icon-eye"></a>
+                        </div>
+                        <div class="header-right__map">
+                            <a href="#popup-map" class="icon-map"></a>
+                        </div>
+                        <div class="header-right__search">
+                            <a href="#popup-search" class="icon-search"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right__down">
+                <nav class="header-right__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="about.html" class="menu__link">О центре</a>
+                            <span class="menu__arrow icon-arrow3"></span>
+                            <ul class="menu__sub-list">
+                                <li>
+                                    <a href="reviews.html" class="menu__sub-link">Отзывы</a>
+                                </li>
+                                <li>
+                                    <a href="licenses.html" class="menu__sub-link">Лицензии</a>
+                                </li>
+                                <li>
+                                    <a href="consumer-information.html" class="menu__sub-link">Информация для потребителей</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a href="services.html" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="specialists.html" class="menu__link">Специалисты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="prices.html" class="menu__link">Цены</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="questions.html" class="menu__link">Вопросы-ответы</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="offers.html" class="menu__link">Акции</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contacts.html" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+            <main class="page">
+    <section class="breadcrumb">
+        <div class="breadcrumb__container container">
+            <a href="index.html" class="back__button icon-arrow1"></a>
+            <ul class="breadcrumb__body">
+                <li><a href="index.html">Главная</a></li>
+                <li>Цены</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="page-tittle">
+        <div class="page-tittle__container">
+            <div class="page-tittle__body">
+                <h2>Цены</h2>
+                <div class="page-tittle__circle"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price-attention">
+        <div class="price-attention__container container">
+            <p class="price-attention">* Администрация клиники принимает все меры по своевременному обновлению размещенного на сайте прайс-листа, однако во избежание возможных недоразумений, советуем уточнять стоимость услуг в регистратуре или контакт-центре. Размещенный прайс не является офертой. Медицинские услуги оказываются на основании договора.</p>
+        </div>
+    </section>
+
+    <section class="price__search">
+        <div class="price-search__container container">
+            <div class="price-search__body">
+                <span class="icon-search"></span>
+                <form action="" method="get">
+                    <input name="search" placeholder="Поиск..." type="search" class="input-search">
+                    <button type="submit" class="button-search">Найти</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="price__prices">
+        <div class="prices__container container">
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler1" name="spoilers" class="spoiler__input">
+                <label for="spoiler1" class="spoiler__tittle">УЗИ<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>УЗИ органов малого таза (трансвагинально, ректально)</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>УЗИ органов малого таза + доплер</td>
+                              <td>1600р</td>
+                            </tr>
+                            <tr>
+                              <td>УЗИ органов малого таза (трансабдоминально, с наполнением мочевого пузыря)</td>
+                              <td>900р</td>
+                            </tr>
+                            <tr>
+                                <td>Доплер гинекология</td>
+                                <td>600р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ определение беременности на малом сроке (до 11 недель)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ I триместр (11-14 недель)</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ плода 15-18 недель (по направлению врача)</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ плода 15-18 недель+ДМИ (по направлению)</td>
+                                <td>1200р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+                
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler2" name="spoilers" class="spoiler__input">
+                <label for="spoiler2" class="spoiler__tittle">Фолликулометрия<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>УЗИ органов малого таза (трансвагинально, ректально)</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>УЗИ органов малого таза + доплер</td>
+                              <td>1600р</td>
+                            </tr>
+                            <tr>
+                              <td>УЗИ органов малого таза (трансабдоминально, с наполнением мочевого пузыря)</td>
+                              <td>900р</td>
+                            </tr>
+                            <tr>
+                                <td>Доплер гинекология</td>
+                                <td>600р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ определение беременности на малом сроке (до 11 недель)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ I триместр (11-14 недель)</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ плода 15-18 недель (по направлению врача)</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>УЗИ плода 15-18 недель+ДМИ (по направлению)</td>
+                                <td>1200р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>   
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler3" name="spoilers" class="spoiler__input">
+                <label for="spoiler3" class="spoiler__tittle">Гинекология<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Подбор гинекологического кольца (Писарий)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Установка гинекологического кольца (Писарий)</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Проба Шуварского</td>
+                                <td>900р</td>
+                            </tr>
+                            <tr>
+                                <td>Импланон введение</td>
+                                <td>1700р</td>
+                            </tr>
+                            <tr>
+                                <td>Введение ВМС</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Ведение ВМС Мирена</td>
+                                <td>1500р</td>
+                            </tr>
+                            <tr>
+                                <td>Экстракция ВМС</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Инструментальное удаление ВМС</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>Эхогистероскопия</td>
+                                <td>3200р</td>
+                            </tr>
+                            <tr>
+                                <td>Химическая коагуляция шейки матки (без стоимости препарата)</td>
+                                <td>500р</td>
+                            </tr>
+                            <tr>
+                                <td>Бужирование цервикального канала</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Бужирование цервикального канала под местной анестезией</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>Выскабливание цервикального канала</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Конизация шейки матки</td>
+                                <td>3500р</td>
+                            </tr>
+                            <tr>
+                                <td>Радиоволновая коагуляция шейки матки</td>
+                                <td>2500р</td>
+                            </tr>
+                            <tr>
+                                <td>Удаление полипа цервикального канала</td>
+                                <td>1500р</td>
+                            </tr>
+                            <tr>
+                                <td>Рассечение кист влагалища, предверия влагалища, Ov.Naboti</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Тампон</td>
+                                <td>200р</td>
+                            </tr>
+                            <tr>
+                                <td>Ванночка</td>
+                                <td>200р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпотест</td>
+                                <td>100р</td>
+                            </tr>
+                            <tr>
+                                <td>Удаление папилломы</td>
+                                <td>1000р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler4" name="spoilers" class="spoiler__input">
+                <label for="spoiler4" class="spoiler__tittle">Эстетическая гинекология<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Подбор гинекологического кольца (Писарий)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Установка гинекологического кольца (Писарий)</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Проба Шуварского</td>
+                                <td>900р</td>
+                            </tr>
+                            <tr>
+                                <td>Импланон введение</td>
+                                <td>1700р</td>
+                            </tr>
+                            <tr>
+                                <td>Введение ВМС</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Ведение ВМС Мирена</td>
+                                <td>1500р</td>
+                            </tr>
+                            <tr>
+                                <td>Экстракция ВМС</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Инструментальное удаление ВМС</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>Эхогистероскопия</td>
+                                <td>3200р</td>
+                            </tr>
+                            <tr>
+                                <td>Химическая коагуляция шейки матки (без стоимости препарата)</td>
+                                <td>500р</td>
+                            </tr>
+                            <tr>
+                                <td>Бужирование цервикального канала</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Бужирование цервикального канала под местной анестезией</td>
+                                <td>1200р</td>
+                            </tr>
+                            <tr>
+                                <td>Выскабливание цервикального канала</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Конизация шейки матки</td>
+                                <td>3500р</td>
+                            </tr>
+                            <tr>
+                                <td>Радиоволновая коагуляция шейки матки</td>
+                                <td>2500р</td>
+                            </tr>
+                            <tr>
+                                <td>Удаление полипа цервикального канала</td>
+                                <td>1500р</td>
+                            </tr>
+                            <tr>
+                                <td>Рассечение кист влагалища, предверия влагалища, Ov.Naboti</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Тампон</td>
+                                <td>200р</td>
+                            </tr>
+                            <tr>
+                                <td>Ванночка</td>
+                                <td>200р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпотест</td>
+                                <td>100р</td>
+                            </tr>
+                            <tr>
+                                <td>Удаление папилломы</td>
+                                <td>1000р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler5" name="spoilers" class="spoiler__input">
+                <label for="spoiler5" class="spoiler__tittle">Эндокринология<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Подбор гинекологического кольца (Писарий)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Установка гинекологического кольца (Писарий)</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Проба Шуварского</td>
+                                <td>900р</td>
+                            </tr>
+                            <tr>
+                                <td>Импланон введение</td>
+                                <td>1700р</td>
+                            </tr>
+                            <tr>
+                                <td>Введение ВМС</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Ведение ВМС Мирена</td>
+                                <td>1500р</td>
+                            </tr>
+                            <tr>
+                                <td>Экстракция ВМС</td>
+                                <td>800р</td>
+                            </tr>
+                            <tr>
+                                <td>Инструментальное удаление ВМС</td>
+                                <td>1200р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler6" name="spoilers" class="spoiler__input">
+                <label for="spoiler6" class="spoiler__tittle">Гастроэнтерология<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler7" name="spoilers" class="spoiler__input">
+                <label for="spoiler7" class="spoiler__tittle">Терапевт<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler8" name="spoilers" class="spoiler__input">
+                <label for="spoiler8" class="spoiler__tittle">Маммолог<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler9" name="spoilers" class="spoiler__input">
+                <label for="spoiler9" class="spoiler__tittle">Кардиолог<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler10" name="spoilers" class="spoiler__input">
+                <label for="spoiler10" class="spoiler__tittle">Уролог<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler11" name="spoilers" class="spoiler__input">
+                <label for="spoiler11" class="spoiler__tittle">Процедурный кабинет<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler12" name="spoilers" class="spoiler__input">
+                <label for="spoiler12" class="spoiler__tittle">Хирургия<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="prices__spoiler spoiler">
+                <input type="checkbox" id="spoiler13" name="spoilers" class="spoiler__input">
+                <label for="spoiler13" class="spoiler__tittle">Дополнительные услуги<span class="icon-arrow2"></span></label>
+                <div class="spoiler__content">
+                    <table>
+                        <tbody>
+                            <tr>
+                              <td>Первичный прием гинеколога-эндокринолога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога-эндокринолога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                              <td>Первичный прием гинеколога</td>
+                              <td>1200р</td>
+                            </tr>
+                            <tr>
+                              <td>Повторный прием гинеколога</td>
+                              <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Кольпоскопия</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Биопсия (забор)</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Забор мазка</td>
+                                <td>1000р</td>
+                            </tr>
+                            <tr>
+                                <td>Пайпель биопсия забор</td>
+                                <td>800р</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="registration">
+    <div class="registration__container container">
+        <div class="registration__body">
+            <div class="registration__left">
+                <div class="form">
+                    <form action="#" id="form" class="form__body">
+                        <div class="registration__subtittle subtittle">Онлайн запись к специалисту</div>
+                        <div class="form__grid-body">
+                            <div class="form__item">
+                                <input id="formName" type="text" name="name" class="form__input" placeholder="Ваше имя*">
+                            </div>
+                            <div class="form__item">
+                                <input id="formEmail" type="email" name="email" class="form__input" placeholder="Ваш e-mail">
+                            </div>
+                            <div class="form__item">
+                                <input id="formPhone" type="tel" name="phone" class="form__input" placeholder="Номер телефона*">
+                            </div>
+                            <div class="form__item">
+                                <select name="specialist" id="formSpecialist" class="form__select">
+                                    <option value="" disabled selected hidden>Выбор специалиста*</option>
+                                    <option value="Гинеколог">Гинеколог</option>
+                                    <option value="Уролог">Уролог</option>
+                                    <option value="Гастроэнтеролог">Гастроэнтеролог</option>
+                                    <option value="Хирургия">Хирургия</option>
+                                    <option value="Эндокринолог">Эндокринолог</option>
+                                    <option value="Кардиолог">Кардиолог</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                        <button type="submit" class="form__button">Записаться</button>
+                    </form>
+                </div>
+                <p class="registration-left__text">Звездочкой* отмечены поля обязательные для заполнения</p>
+            </div>
+            <div class="registration__right">
+                <div class="registration-right__tittle">ГРАФИК РАБОТЫ:</div>
+                <div class="registration-right__times">
+                    <span class="registration-right__time1">ПН · ПТ до 19.00</span>
+                    <span class="registration-right__time2">СБ · ВС до 15.00</span>
+                </div>
+                <div class="registration-right__contacts">
+                    <div class="registration-right__contacts-icon icon-tel"></div>
+                    <span class="registration-right__contacts-tittle">Телефон для записи:</span>
+                    <a href="tel:8(8552)910322">8(8552) · 910 · 322</a>
+                    <a href="tel:8(8552)322177">8(8552) · 322 · 177</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="scroll-up">
+        <div class="scroll-up__icon icon-arrow2"></div>
+    </div>
+</main>
+            <footer>
+    <div class="footer__logo">
+        <a href="#">
+            <img src="img/icons/logo.svg">
+        </a>
+    </div>
+    <div class="footer__menu container">
+        <ul class="footer-menu__list">
+            <li class="footer-menu__item">
+                <a href="about.html" class="menu__link">О центре</a>
+            </li>
+            <li class="footer-menu__item">
+                <a href="services.html" class="menu__link">Услуги</a>
+            </li>
+            <li class="footer-menu__item">
+                <a href="specialists.html" class="menu__link">Специалисты</a>
+            </li>
+            <li class="footer-menu__item">
+                <a href="prices.html" class="menu__link">Цены</a>
+            </li>
+            <li class="footer-menu__item">
+                <a href="questions.html" class="menu__link">Вопросы-ответы</a>
+            </li>
+            <li class="footer-menu__item">
+                <a href="offers.html" class="menu__link">Акции</a>
+            </li>
+            <li class="footer-menu__item">
+                <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__connect">
+        <div class="footer-contacts__container container">
+            <div class="footer__up">
+                <div class="footer__contacts">
+                    <div class="footer-contacts__icon icon-tel"></div>
+                    <div class="footer-contacts__phones">
+                        <div class="footer-contacts__first">
+                            <a href="tel:8(8552)910322">8(8552) · 910 · 322</a>
+                        </div>
+                        <div class="footer-contacts__second">
+                            <a href="tel:8(8552)322177">8(8552) · 322 · 177</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__map">
+                    <div class="footer-map__icon icon-map"></div>
+                    <div class="footer-map__text">
+                        <span>РТ, Н. Челны, пр-кт Чулман, дом 34 "А"</span>
+                    </div>
+                </div>
+                <div class="footer__mail">
+                    <div class="footer-mail__icon icon-mail"></div>
+                    <div class="footer-mail__contact">
+                        <a href="mailto:yourdoctor16@mail.ru">yourdoctor16@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__down">
+                <div class="footer__pay">
+                    <span>Принимаем к оплате:</span>
+                    <div class="footer-pay__cards">
+                        <div class="visa-card">
+                            <img src="img/icons/visa.svg">
+                        </div>
+                        <div class="master-card">
+                            <img src="img/icons/master.svg">
+                        </div>
+                    </div>
+                </div>
+                <ul class="footer__icons">
+                    <li class="footer-icons__whatsup">
+                        <a href="#" class="icon-tel"></a>
+                    </li>
+                    <li class="footer-icons__vk">
+                        <a href="#" class="icon-vk"></a>
+                    </li>
+                    <li class="footer-icons__insta">
+                        <a href="#" class="icon-insta"></a>
+                    </li>
+                    <li class="footer-icons__youtube">
+                        <a href="#" class="icon-youtube"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyright container">
+        <div class="copyright__left">
+            <p>© 2022-2023 г. «Медицинский центр Ваш Доктор». <a href="#">Политика конфиденциальности</a></p>
+            
+        </div>
+        <div class="copyright__right">
+            <p>Создание и продвижение сайтов компания <a href="#">«ИДЕЯ!»</a></p>
+        </div>
+    </div>
+</footer>
+<div id="popup-map" class="popup">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#" class="popup__close"></a>
+            <div class="popup__tittle">Адрес</div>
+            <div class="popup__map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2dccb7eb11f1e199bd2d010eefdd7bbd5aed097dd081a88835fa962e490e1b9f&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="popup-search" class="popup">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#" class="popup__close"></a>
+            <div class="popup__tittle">Поиск</div>
+            <form action="" method="get" class="form-search">
+                <input name="search" placeholder="Поиск" type="search" class="input-search">
+                <button type="submit" class="button-search"></button>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="popup-reception" class="popup">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+        <div class="popup__content popup-content__reception">
+            <a href="#" class="popup__close"></a>
+            <div class="popup__tittle">Записаться на прием</div>
+            <div class="popup-form">
+                <form action="#" id="form" class="form__body">
+                    <div class="form__popup">
+                        <div class="form__item">
+                            <input id="formName" type="text" name="name" class="form__input" placeholder="Ваше имя*">
+                        </div>
+                        <div class="form__item">
+                            <input id="formEmail" type="email" name="email" class="form__input" placeholder="Ваш e-mail">
+                        </div>
+                        <div class="form__item">
+                            <input id="formPhone" type="tel" name="phone" class="form__input" placeholder="Номер телефона*">
+                        </div>
+                        <div class="form__item">
+                            <select name="specialist" id="formSpecialist" class="form__select">
+                                <option value="" disabled selected hidden>Выбор специалиста*</option>
+                                <option value="Гинеколог">Гинеколог</option>
+                                <option value="Уролог">Уролог</option>
+                                <option value="Гастроэнтеролог">Гастроэнтеролог</option>
+                                <option value="Хирургия">Хирургия</option>
+                                <option value="Эндокринолог">Эндокринолог</option>
+                                <option value="Кардиолог">Кардиолог</option>
+                            </select>
+                        </div>
+                        <div class="form__item">
+                            <input id="formName" type="text" name="name" class="form__input" placeholder="Дата">
+                        </div>
+                        <div class="form__item">
+                            <input id="formName" type="text" name="name" class="form__input" placeholder="Время">
+                        </div>
+                        <div class="popup-checkbox">
+                            <input id="formAgreement" checked type="checkbox" name="agreemetn" class="checkbox__input">
+                            <label for="formAgreement" class="checkbox__label"><span>Нажимая кнопку, я даю свое согласие на обработку моих персональных данных в соответствии с законом № 152-ФЗ «О персональных данных» от 27.07.2006 и принимаю условия <a href="#">пользовательского соглашения.</a></span></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="form__button popup-button">Отправить</button>
+                </form>
+            </div>
+            <p class="popup-reception__text">Звездочкой* отмечены поля обязательные для заполнения</p>
+        </div>
+    </div>
+</div>
+        </div>
+        <script src="libs/imask/imask.js"></script>
+        <script src="libs/choices/choices.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
